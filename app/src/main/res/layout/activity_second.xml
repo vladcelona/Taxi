@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_second.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/setPathButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_route"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/routeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callTaxiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_taxi"
+        android:layout_marginTop="16dp"
+        android:enabled="false"/>
+
+</LinearLayout>

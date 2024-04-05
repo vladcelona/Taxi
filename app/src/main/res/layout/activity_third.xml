@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_third.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/pointFromEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point From"
+        android:layout_alignParentTop="true"
+        android:padding="4dp"/>
+
+    <EditText
+        android:id="@+id/streetFromEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/houseFromEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="House"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/flatFromEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Flat"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/pointToEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Point To" />
+
+    <EditText
+        android:id="@+id/streetToEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/houseToEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="House"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/flatToEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Flat"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
